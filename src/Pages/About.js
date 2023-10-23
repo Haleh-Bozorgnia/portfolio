@@ -1,6 +1,7 @@
 import React from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import '../style.css'
+import Pic from "../assets/Haleh-pic.jpeg"
 const About = () => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -15,7 +16,11 @@ const About = () => {
         className="progress-bar-animate"
       />
       <div className="about">
-        <h2>About</h2>
+        <div style={{ display: "flex", justifyContent:"space-between"}}>
+          <h2>About</h2>
+          <img src={Pic} alt="my image" style={{borderRadius:"50%" , height:"120px", marginBottom:"20px"}}/>
+        </div>
+
         <>
           <article>
             <p className="about-container">
@@ -32,7 +37,6 @@ const About = () => {
               power of shared ideas and diverse perspectives to create
               exceptional results.
             </p>
-         
           </article>
         </>
       </div>

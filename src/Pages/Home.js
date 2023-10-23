@@ -9,7 +9,7 @@ function Home(){
           animate={{ x: 0, scale: 1 }}
           transition={{ duration: 1 }}
         >
-          <span style={{ color: "rgb(244, 3, 204)", fontSize: "3rem" }}>
+          <span style={{ color: "rgb(244, 3, 204)", fontSize: "2rem" }}>
             Haleh Bozorgnia
           </span>
         </motion.div>
@@ -19,7 +19,7 @@ function Home(){
           animate={{ x: 0, scale: 1 }}
           transition={{ duration: 1 }}
         >
-          <span style={{ fontSize: "4rem" }}>Full Stack Developer</span>
+          <span style={{ fontSize: "2.5rem" }}>Full Stack Developer</span>
         </motion.div>
         <motion.div
           className="name"
@@ -27,9 +27,9 @@ function Home(){
           animate={{ x: 0, scale: 1 }}
           transition={{ duration: 1 }}
         >
-          <p style={{ fontSize: "3rem" }}>
+          <p style={{ fontSize: "2rem" }}>
             I am a skilled and passionate web developer with experience in
-            creating visually appealing and user-friendly website
+            creating visually appealing and user-friendly websites.
           </p>
         </motion.div>
       </div>

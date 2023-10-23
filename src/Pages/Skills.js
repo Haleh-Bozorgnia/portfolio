@@ -8,11 +8,14 @@ import Node from "../assets/node.png"
 import GitHub from "../assets/github.png"
 import SQL from "../assets/sql.png"
 import DJango from "../assets/django.png"
+import Tailwind from "../assets/tailwind-css.svg"
+import Typescript from "../assets/typescript-plain.svg"
+import Ejs from "../assets/ejs.svg"
 function Skills() {
   return (
     <div className="skillContainer">
       <div>
-        <p className='skill-desc'>These are the technologies I've worked with</p>
+        <p className="skill-desc">Skills</p>
       </div>
       <div className="skills">
         <div>
@@ -50,6 +53,18 @@ function Skills() {
         <div>
           <img src={DJango} alt="DJango icon" className="killImg" />
           <p>DJango</p>
+        </div>
+        <div>
+          <img src={Tailwind} alt="tailwind icon" className="killImg" />
+          <p>TailwindCSS</p>
+        </div>{" "}
+        <div>
+          <img src={Typescript} alt="typescript icon" className="killImg" />
+          <p>TailwindCSS</p>
+        </div>
+        <div>
+          <img src={Ejs} alt="eja icon" className="killImg" />
+          <p>Ejs</p>
         </div>
       </div>
     </div>
