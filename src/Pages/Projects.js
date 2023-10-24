@@ -18,7 +18,7 @@ function Projects(props) {
          <br></br>
          <h5 className="project-skills">Skills</h5>
          <p className="project-skills-desc">
-           JavaScript, Node.js, HTML, CSS, JSon{" "}
+           JavaScript, Node.js, HTML, CSS, JSon
          </p>
          <br></br>
          <a
@@ -26,6 +26,12 @@ function Projects(props) {
            className="project-btn"
          >
            Link to project
+         </a>
+         <a
+           href="https://github.com/Haleh-Bozorgnia/project1"
+           className="project-btn"
+         >
+           Link to Github
          </a>
        </div>
        <div className="project-properties">
@@ -53,6 +59,12 @@ function Projects(props) {
          >
            Link to project
          </a>
+         <a
+           href="https://github.com/Haleh-Bozorgnia/ExpenseManagement"
+           className="project-btn"
+         >
+           Link to Github
+         </a>
        </div>
        <div className="project-properties">
          <img
@@ -79,6 +91,12 @@ function Projects(props) {
          >
            Link to project
          </a>
+         <a
+           href="https://github.com/Haleh-Bozorgnia/vocabuilder-frontend"
+           className="project-btn"
+         >
+           Link to Github
+         </a>
        </div>
        <div className="project-properties">
          <img
@@ -95,7 +113,7 @@ function Projects(props) {
          </p>
          <h5 className="project-skills">Skills</h5>
          <p className="project-skills-desc">
-           TypeScript, React, HTML, TailwindCSS, Django, PostgreSQL
+           TypeScript, React, HTML, TailwindCSS, Django, PostgreSQL, TailwindCSS
          </p>
 
          <a
@@ -103,6 +121,12 @@ function Projects(props) {
            className="project-btn"
          >
            Link to project
+         </a>
+         <a
+           href="https://github.com/Haleh-Bozorgnia/Capstone-Project-Frontend"
+           className="project-btn"
+         >
+           Link to Github
          </a>
        </div>
      </div>

@@ -51,6 +51,20 @@ function Header() {
               >
                 Contact
               </NavLink>
+              {/* <NavLink
+                to="/resume"
+                className="nav-link"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                Resume
+              </NavLink> */}
+              <NavLink
+                to="/resume"
+                className="nav-link"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                Resume
+              </NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>

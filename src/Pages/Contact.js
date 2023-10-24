@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Col, Row } from "react-bootstrap";
-import PDF from "../assets/Haleh Bozorgnia-Resume-Fullstack.pdf"
 import "../style.css";
 
 const Contact = () => {
@@ -15,15 +14,9 @@ const Contact = () => {
       <h2>Contact</h2>
       <Row>
         <Col>
-          <div
-            style={{
-              marginTop: "1px",
-              display: "flex",
-              marginLeft: "150px",
-              marginBottom: "150px",
-            }}
-          >
-            <a href={PDF}>My Resume</a>
+          <div style={{ marginTop: "10px",marginLeft:"25px" }}>
+            <h4>Phone: (604)802-6026</h4>
+            <h4>Mail: bozorgnia2010@gmail.com</h4>
           </div>
           <div
             className="contact-form"
@@ -43,10 +36,6 @@ const Contact = () => {
             <div className="contact-info">
               <a href="https://www.linkedin.com/in/haleh-bozorgnia">Linkedin</a>
               <a href="https://github.com/Haleh-Bozorgnia/">Github</a>
-            </div>
-            <div style={{ marginTop: "10px" }}>
-              <h4>Phone: (604)802-6026</h4>
-              <h4>Mail: bozorgnia2010@gmail.com</h4>
             </div>
           </div>
         </Col>
