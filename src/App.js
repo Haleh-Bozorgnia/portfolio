@@ -9,7 +9,6 @@ import Projects from "./Pages/Projects";
 import Skills from "./Pages/Skills";
 import Home from "./Pages/Home"
 import Header from './components/Header';
-import Resume from './Pages/Resume';
 import { AnimatePresence } from 'framer-motion';
 
 function App() {
