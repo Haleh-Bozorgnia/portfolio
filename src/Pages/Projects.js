@@ -105,7 +105,7 @@ function Projects(props) {
            className="project-img"
            style={{ paddingTop: "12px" }}
          />
-         <h4 className="project-title">Expense Management </h4>
+         <h4 className="project-title">Sale Service </h4>
          <p className="project-description">
            A full CRUD (Create, Read, Update, Delete) app for people to sell
            their services to others is a web application that facilitates the

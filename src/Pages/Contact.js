@@ -15,8 +15,8 @@ const Contact = () => {
       <Row>
         <Col>
           <div style={{ marginTop: "10px",marginLeft:"25px" }}>
-            <h4>Phone: (604)802-6026</h4>
-            <h4>Mail: bozorgnia2010@gmail.com</h4>
+            <h4>Phone: +1(604)802-6026</h4>
+            <h4>Mail: haleh.bozorg@gmail.com</h4>
           </div>
           <div
             className="contact-form"
